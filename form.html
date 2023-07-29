@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: cornflowerblue;
+            padding: 30px;
+            border-radius: 10px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Novel Service Login</h1>
+    <div>
+        <form>
+            Username:<br><input type="text" placeholder="Enter your username"/><br>
+            Password:<br><input type="text" placeholder="Enter your password"/><br>
+            City of Employment:<br><input type="text" placeholder="Enter your city of employment"/><br>
+        Web Server:<select>
+            <option>---Choose a Server---</option>
+            <option>Nginx</option>
+            <option>Apache</option>
+            <option>AWS</option>
+        </select><br>
+        Please specify yout code:<br>
+        <input type="radio"/>Admin<br>
+        <input type="radio"/>Engineer<br>
+        <input type="radio"/>Manager<br>
+        <input type="radio"/>Guest<br>
+        Single Sign-on to the following:<br>
+        <input type="radio"/>Mail<br>
+        <input type="radio"/>Payroll<br>
+        <input type="radio"/>Self-service<br><br>
+        <input type="submit" value="Login"/>
+        <input type="submit" value="Reset"/><br>
+        
+    </form>
+</div>
+</body>
+</html>
